@@ -15,7 +15,7 @@ class App extends Component {
         <h1>
           <pre>LoginForm</pre>
         </h1>
-        <LoginForm onSubmit={this.login} />
+        <LoginForm onSubmit={(boom) => this.login(boom)} />
 
         <h1>
           <pre>TwitterMessage</pre>
